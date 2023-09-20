@@ -1,0 +1,122 @@
+/* upper page (nav, logo, text) */
+
+.computer {
+    position: relative;
+}
+
+.logo, .bar, .welctext {
+    position: absolute;
+    text-align: center;
+}
+
+.logo {
+    float: left;
+    padding: 10px;
+    padding-top: 15px;
+    left: 10px;
+}
+
+.bar {
+
+    right: 15px;
+    padding: 10px;
+}
+
+.welctext {
+    text-align: center;
+    padding-top: 170px;
+}
+
+.container1 {
+    padding-left: 220px;
+    padding-right: 100px;
+}
+
+.welctext1 {
+    color: #787878;
+    padding-top: 230px;
+    position: absolute;
+    padding-right: 50px;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    float: right;
+}
+
+li {
+    float: left;
+  }
+
+li a {
+    display: block;
+    padding: 8px;
+}
+
+.button1 {
+    position: absolute;
+    padding-top: 320px;
+}
+
+.button {
+    background-color: #10C9C3;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    margin: 4px 2px;
+}
+
+/* abt section */
+
+.abttext {
+    color: black;
+    text-align: center;
+}
+
+.abttext1 {
+    text-align: center;
+    color: #787878;
+    padding-left: 200px;
+    padding-right: 200px;
+    padding-top: 30px;
+}
+
+.signature {
+    padding-top: 20px;
+}
+
+/* skills section */
+
+.skills {
+    background-color: #F5F5F5;
+}
+
+.container3 {
+    background-color: #10C9C3;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.skills {
+    padding-top: 30px;
+    padding-bottom: 20px;
+}
+
+.icon {
+    padding: 20px;
+    float: left;
+}
+
+.move {
+    padding-left: 60px;
+}
+h6 {
+    color: white;
+}
+
