@@ -245,40 +245,34 @@ h6 {
 }
 
 /* hover pic */
-.over {
+.containers {
   position: relative;
-  width: 100%;
-  max-width: 400px;
 }
 
-.icon5 {
-  display: block;
-  width: 100%;
-  height: auto;
+.icons {
+    opacity: 1;
+    display: block;
+    width: 100%;
+    height: auto;
+    transition: .5s ease;
+    backface-visibility: hidden;
 }
 
 .middle {
-  position: absolute;
-  top: 0;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  height: 100%;
-  width: 100%;
+  transition: .5s ease;
   opacity: 0;
-  transition: .3s ease;
-  background-color: #787878;
-}
-
-.over:hover .middle {
-  opacity: 1;
-}
-
-.eye {
   position: absolute;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
   -ms-transform: translate(-50%, -50%);
   text-align: center;
+}
+
+.containers:hover .icons {
+  opacity: 0.3;
+}
+
+.containers:hover .middle {
+  opacity: 1;
 }
