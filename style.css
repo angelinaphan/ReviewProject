@@ -5,10 +5,14 @@
 }
 
 .logo,
-.bar,
-.welctext {
+.bar {
   position: absolute;
   text-align: center;
+}
+
+.barr {
+  position: absolute;
+  margin-left: 480px;
 }
 
 .logo {
@@ -18,7 +22,7 @@
   left: 10px;
 }
 
-.bar {
+ul {
   right: 15px;
   padding: 10px;
 }
@@ -26,6 +30,7 @@
 .welctext {
   text-align: center;
   padding-top: 170px;
+  padding-left: 55px;
 }
 
 .container1 {
@@ -35,9 +40,10 @@
 
 .welctext1 {
   color: #787878;
-  padding-top: 230px;
+  padding-top: 30px;
   position: absolute;
   padding-right: 50px;
+  padding-left: 150px;
 }
 
 ul {
@@ -65,7 +71,8 @@ li a:hover {
 
 .button1 {
   position: absolute;
-  padding-top: 320px;
+  padding-top: 130px;
+  padding-left: 150px;
 }
 
 .button {
@@ -127,3 +134,114 @@ li a:hover {
 h6 {
   color: white;
 }
+
+.ser {
+  text-align: center;
+  color: #141414;
+}
+
+.head {
+  color: #141414;
+  padding-top: 10px;
+  text-align: center;
+}
+
+.head1 {
+  color: #787878;
+  text-align: center;
+}
+
+.pic {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* test sections */
+.container5 {
+  background-color: #10c9c3;
+  padding: 50px;
+}
+
+.test, .test2 {
+  color: white;
+  text-align: center;
+  padding-left: 150px;
+  padding-right: 150px;
+}
+
+.container6 {
+  padding-top: 50px;
+}
+
+/* footer */
+.container8 {
+  background-color: #141414;
+  padding-left: 50px;
+}
+
+.footer1 {
+  color: white;
+  padding-top: 40px;
+}
+
+.footers1 {
+  color: #787878;
+
+}
+
+/* contact */
+.container9 {
+  background-color:#f5f5f5;
+  padding-left: 100px;
+  padding-right: 100px;
+}
+
+.need {
+  color:#787878;
+  text-align: center;
+}
+
+.box {
+  background-color:white;
+  color: #787878;
+  padding: 20px;
+  width: 500px;
+}
+
+.box1 {
+  background-color:white;
+  color: #787878;
+  padding: 20px;
+  margin-left: 50px;
+}
+
+.box3 {
+  background-color: white;
+  color: #787878;
+  padding: 20px;
+  width: 1125px;
+  margin-left: -10px;
+}
+
+.box4 {
+  background-color: white;
+  color: #787878;
+  padding: 20px;
+  width: 1125px;
+  margin-left: -10px;
+  padding-bottom: 100px;
+}
+
+.button2 {
+    background-color: #10c9c3;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    margin-left: 450px;
+}
+
+/* hover pic */
