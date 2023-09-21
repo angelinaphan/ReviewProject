@@ -259,9 +259,9 @@ h6 {
   right: 0;
   height: 100%;
   width: 100%;
-  opacity: 0;
+  opacity: 1;
   transition: .3s ease;
-  background-color: red;
+  background-color: #141414;
 }
 
 .picture:hover .middle {
